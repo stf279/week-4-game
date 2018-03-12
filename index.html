@@ -43,8 +43,48 @@ I was going to try and complete the Star Wars game by the way...
         <!--Give a description of the game -->
 
         <!--Set up images that players will select their hero and enemies from -->
+        <div class="container">
 
-        <!--Set the combat area -->
+                <div class="row">
+            
+                    <!-- Calculator Panel -->
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Hero's!</h3>
+                            </div>
+            
+                            <div class="panel-body">
+                                
+                                <button id="button-1" class="btn btn-primary hero" value="luke" style="background-image:url(myImage.png)"></button>
+                                <button id="button-2" class="btn btn-primary hero" value="vader" style="background-image:url(myImage.png)"></button>
+                                <button id="button-3" class="btn btn-primary hero" value="maul" style="background-image:url(myImage.png)"></button>
+                                <button id="button-4" class="btn btn-primary hero" value="yoda" style="background-image:url(myImage.png)"></button>
+                                
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                    <!--Set the combat area -->
+                    <div class="col-lg-6">
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Combat</h3>
+                            </div>
+                            <div class="panel-body">
+                                <h1 id="hero"></h1>
+                                <h1 id="attack"></h1>
+                                <h1 id="enemy"></h1>
+                                <hr>
+                                <h1 id="result"></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
 
     </main>
 
