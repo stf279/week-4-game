@@ -4,6 +4,8 @@
 
 //Set variables for the characters
 
+$(document).ready(function(){
+
 let chars = [
 
 	luke = {
@@ -16,7 +18,7 @@ let chars = [
 
 		baseAttack: 10,
 
-		attack: 10,
+		attackPower: 10,
 
 		health: 150,
 
@@ -32,7 +34,7 @@ let chars = [
 
 		baseAttack: 20,
 
-		attack: 20,
+		attackPower: 20,
 
         health: 180,
         
@@ -48,7 +50,7 @@ let chars = [
 
 		baseAttack: 15,
 
-		attack: 15,
+		attackPower: 15,
 
         health: 120,
         
@@ -64,7 +66,7 @@ let chars = [
 
 		baseAttack: 10, 
 
-		attack: 10,
+		attackPower: 10,
 
 		health: 180,
 
@@ -74,6 +76,22 @@ let chars = [
 
 //Set screen after choices
 
+$('.hero').click function() {
+
+    heroImg = $(this).val();
+
+    $('#hero').image(heroImg);
+
+    return heroImg;
+
+}
+
 //Determine outcome of battles to include defeat and continuing until either defeat or victory
 
+$('.attack').click function() {
 
+
+
+}
+
+}
